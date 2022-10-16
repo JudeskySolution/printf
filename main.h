@@ -1,5 +1,5 @@
-#ifndef PRINTF_H
-#define PRINTF_H
+#ifndef _PRINTF_H_
+#define _PRINTF_H_
 
 #include <stdarg.h>
 #include <stdio.h>
@@ -117,4 +117,4 @@ char *get_precision(char *p, params_t *params, va_list ap);
 /* _prinf.c module */
 int _printf(const char *format, ...);
 
-#endif /* MAIN_H */
+#endif /* _MAIN_H_ */
