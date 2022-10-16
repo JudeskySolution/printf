@@ -23,4 +23,4 @@ int _print_mod(va_list ls);
 int _print_string(va_list ls);
 int _print_int(va_list ls);
 
-#endif /* _MAIN_H_ */
+#endif /* MAIN_H */
